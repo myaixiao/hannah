@@ -1,4 +1,3 @@
-import {BrowserRouter as Router,Route,Link} from "react-router-dom"
 import Home from "../components/Home"
 import MailList from "../components/MailList"
 import Find from "../components/Find"

@@ -1,7 +1,9 @@
 import React,{Component} from 'react';
-import './App.css';
+import './App.less';
 import {BrowserRouter as Router,Route,Link} from "react-router-dom"
 import routes from "./model/router"
+import TabBar from "./components/TabBars"
+// import { Button } from 'antd-mobile';
 class App extends Component{
   constructor(props){
     super(props);
@@ -13,10 +15,10 @@ class App extends Component{
     return(
       <Router >
         <div className="app">
-          <div>
-            
-          </div>
-          <br/>
+          {/* <div>
+          <Button type="primary">Button</Button>
+          </div> */}
+          <TabBar />
           {
             routes.map((route,key)=>{
              if(route.extact){
