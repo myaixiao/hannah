@@ -7,9 +7,9 @@ class Header extends Component{
     }
     render(){
         return(
-            <div>
+            <div className="header">
             <NavBar
-              mode="dark"
+              mode="light"
               icon={<Icon type="left" />}
               onLeftClick={() => console.log('onLeftClick')}
               rightContent={[

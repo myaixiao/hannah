@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import './App.less';
+import "./assets/css/index.css"
 import {BrowserRouter as Router,Route,Link} from "react-router-dom"
 import routes from "./model/router"
 import TabBar from "./components/TabBars"
@@ -14,7 +15,7 @@ class App extends Component{
   render(){
     return(
       <Router >
-        <div className="app">
+        <div className="App">
           {/* <div>
           <Button type="primary">Button</Button>
           </div> */}

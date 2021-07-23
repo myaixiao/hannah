@@ -7,7 +7,7 @@ class TabBars extends Component{
   constructor(props) {
     super(props);
     this.state = {
-      selectedTab: 'redTab',
+      selectedTab: 'blueTab',
       hidden: false,
       fullScreen: false,
     };
@@ -64,7 +64,7 @@ class TabBars extends Component{
             }
             title="通讯录"
             key="通讯录"
-            badge={'new'}
+            dot
             selected={this.state.selectedTab === 'redTab'}
             onPress={() => {
               this.setState({
